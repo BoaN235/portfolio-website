@@ -15,6 +15,10 @@ Border - #dc3545
   --bs-bg-opacity: 1;
 }
 
+iframe {
+    overflow: clip !important;
+}
+
 .navbar {
     --bs-navbar-color: rgba(222, 224, 227, 1) !important;
     --bs-navbar-hover-color: rgba(255, 255, 255, 1) !important;
@@ -38,6 +42,7 @@ Border - #dc3545
     border-width: 2px;
     border-radius: 10px; 
     padding: 0.5%;
+    font-size: 110%;
 }
 p {
     color: #B3B8BD;
@@ -49,6 +54,7 @@ p {
 
 .title {
     text-align: center;
+    font-size: 250%;
     
 }
 
