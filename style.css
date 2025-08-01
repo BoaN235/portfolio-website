@@ -1,0 +1,69 @@
+/*
+BackGround - #000614
+Primary - #69747C
+Secondary - #2B323B
+Text - #B3B8BD
+Highlight - #DEE0E3
+Border - #dc3545
+ 
+
+*/
+
+
+.body-tertiary {
+  background-color: rgba(0,0,0,0.2) !important;
+  --bs-bg-opacity: 1;
+}
+
+.navbar {
+    --bs-navbar-color: rgba(222, 224, 227, 1) !important;
+    --bs-navbar-hover-color: rgba(255, 255, 255, 1) !important;
+    --bs-navbar-disabled-color: rgba(105, 116, 124, 1) !important;
+    --bs-navbar-active-color: rgba(255, 255, 255, 1) !important;
+    --bs-navbar-brand-color: rgba(255, 255, 255, 1) !important;
+    --bs-navbar-brand-hover-color: rgba(255, 255, 255, 1) !important;
+}
+
+.text-box {
+    color: #DEE0E3;
+    text-align: center;
+    background-color: rgba(0,0,0,0.2);
+    height: 45%;
+    width: 55%;
+    margin: 0 auto;
+    margin-top: 4%;
+    border-style: solid;
+    border-radius: 1%;
+    border-color: #dc3545;
+    border-width: 2px;
+    border-radius: 10px; 
+    padding: 0.5%;
+}
+p {
+    color: #B3B8BD;
+    margin: 0 auto;
+    /*padding-left: 5%; /* Adds 15px padding to all sides of all <p> elements */
+    width: 60%;
+}
+
+
+.title {
+    text-align: center;
+    
+}
+
+.title::after {
+    content: "";
+    background-color: #dc3545;
+    width: 20%;
+    height: 2px;
+    margin: 0 auto;
+    margin-top: 5px;
+    display: block;
+}
+
+body {
+    background-color: #000614 !important;
+    color: #DEE0E3 !important;
+    text-align: center;
+}
