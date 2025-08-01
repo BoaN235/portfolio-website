@@ -43,7 +43,7 @@ iframe {
     z-index: -1;
     width: 100px; /* Set a specific width */
     height: 100px; /* Set the same height as the width */
-    background-color: rgb(200, 0, 0); /* Choose a background color */
+    background-image: radial-gradient(#e62336, #970211); /* Choose a background color */
     border-radius: 50%; /* Make it a circle */
     top: 50%;
     left: 50%;
@@ -59,7 +59,7 @@ iframe {
     z-index: -2;
     width: 50px; /* Set a specific width */
     height: 50px; /* Set the same height as the width */
-    background-color: rgb(125, 0, 0); /* Choose a background color */
+    background-color: rgb(175, 0, 0); /* Choose a background color */
     border-radius: 50%; /* Make it a circle */
     position: inherit;
     transform-origin: initial;
@@ -82,7 +82,7 @@ iframe {
     z-index: -3;
     width: 20px; /* Set a specific width */
     height: 20px; /* Set the same height as the width */
-    background-color: rgb(75, 0, 0); /* Choose a background color */
+    background-color: rgb(125, 0, 0); /* Choose a background color */
     border-radius: 50%; /* Make it a circle */
     position: inherit;
     transform-origin: initial;
@@ -171,4 +171,42 @@ body {
     border-left: #dc3545;
     border-radius: 0px;
     padding-top: 1.5%;
+}
+
+.bloom {
+    box-shadow: 
+    0 0 10px #970211,
+    0 0 20px #970211,
+    0 0 30px #970211,
+    0 0 40px #970211,
+    0 0 70px #970211,
+    0 0 80px #970211,
+    0 0 100px #970211,
+    0 0 150px #970211,
+    0 0 250px #970211,
+    0 0 350px #970211;
+    text-shadow:     
+    0 0 10px #dc3545,
+    0 0 20px #dc3545,
+    0 0 30px #dc3545,
+    0 0 40px #dc3545,
+    0 0 70px #dc3545,
+    0 0 80px #dc3545,
+    0 0 100px #dc3545,
+    0 0 150px #dc3545;
+}
+
+.card-container {
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr; /* Three columns: one flexible unit, two flexible units, one flexible unit */
+  grid-template-rows: auto auto auto; 
+}
+
+.card {
+--bs-card-bg: #000614 !important;
+--bs-card-title-color: #B3B8BD !important;
+color: #DEE0E3 !important;
+--bs-card-border-color: #dc3545 !important;
+--bs-card-border-width: 2px !important;
+margin: 5px;
 }
