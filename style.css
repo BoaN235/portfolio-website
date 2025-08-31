@@ -196,11 +196,15 @@ body {
     0 0 150px #dc3545;
 }
 
-.card-container {
+/*.card-container {
   display: grid;
-  grid-template-columns: 1fr 2fr 1fr; /* Three columns: one flexible unit, two flexible units, one flexible unit */
-  grid-template-rows: auto auto auto; 
-}
+  grid-template-columns: repeat(3,1fr); /* 3 equal columns */
+/*  gap: 20px; /* space between cards */
+/*  justify-items: center; /* center each card in its grid cell */
+/*  margin: 0 auto;
+  max-width: 1200px; /* keeps the row from stretching too wide */
+/*}*/
+
 
 .card {
 --bs-card-bg: #000614 !important;
@@ -208,5 +212,7 @@ body {
 color: #DEE0E3 !important;
 --bs-card-border-color: #dc3545 !important;
 --bs-card-border-width: 2px !important;
-margin: 5px;
+/*margin: 5px;
+display: block !important;
+*/
 }
