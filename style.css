@@ -97,11 +97,11 @@ iframe {
 }
 @media (max-width: 576px) {
   .b-text {
-    font-size: 1.8rem;
+    font-size: 1rem;
   }
   p {
     width: 90%; /* let text breathe */
-    font-size: 0.9rem;
+    font-size: 0.5rem;
   }
 }
 
