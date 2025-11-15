@@ -95,7 +95,7 @@ iframe {
     text-align: center;
     font-size: 1rem;
 }
-@media (max-width: 576px) {
+@media (max-width: 1080) {
   .b-text {
     font-size: 1rem;
   }
