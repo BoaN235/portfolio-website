@@ -41,8 +41,8 @@ iframe {
 
 .b-star {
     z-index: -1;
-    width: 100px; /* Set a specific width */
-    height: 100px; /* Set the same height as the width */
+    width: 5%; /* Set a specific width */
+    height: 10%; /* Set the same height as the width */
     background-image: radial-gradient(#e62336, #970211); /* Choose a background color */
     border-radius: 50%; /* Make it a circle */
     top: 50%;
@@ -57,8 +57,8 @@ iframe {
 
 .b-planet {
     z-index: -2;
-    width: 50px; /* Set a specific width */
-    height: 50px; /* Set the same height as the width */
+    width: 35%; /* Set a specific width */
+    height: 40%; /* Set the same height as the width */
     background-color: rgb(175, 0, 0); /* Choose a background color */
     border-radius: 50%; /* Make it a circle */
     position: inherit;
@@ -80,8 +80,8 @@ iframe {
 
 .b-moon {
     z-index: -3;
-    width: 20px; /* Set a specific width */
-    height: 20px; /* Set the same height as the width */
+    width: 40%; /* Set a specific width */
+    height: 30%; /* Set the same height as the width */
     background-color: rgb(125, 0, 0); /* Choose a background color */
     border-radius: 50%; /* Make it a circle */
     position: inherit;
@@ -100,8 +100,11 @@ iframe {
     border-style: solid;
     border-radius: 1%;
     border-color: #dc3545;
-    border-width: 2px;
-    border-radius: 10px; 
+    border-width: 1%;
+    border-radius: 2%; 
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    border-radius: 5px; /* 5px rounded corners */
 }
 
 .b-box {
@@ -140,7 +143,7 @@ p {
     width: 20%;
     height: 2px;
     margin: 0 auto;
-    margin-top: 5px;
+    margin-top: 1%;
     display: block;
 }
 
@@ -163,13 +166,12 @@ body {
 }
 
 .footer {
-    margin-top: 100px;
-    height: 100px;
+    margin-top: 10%;
+    height: 25%;
     width: 100%;
     border-bottom: #dc3545;
     border-right: #dc3545;
     border-left: #dc3545;
-    border-radius: 0px;
     padding-top: 1.5%;
 }
 
@@ -196,15 +198,19 @@ body {
     0 0 150px #dc3545;
 }
 
-/*.card-container {
-  display: grid;
-  grid-template-columns: repeat(3,1fr); /* 3 equal columns */
-/*  gap: 20px; /* space between cards */
-/*  justify-items: center; /* center each card in its grid cell */
-/*  margin: 0 auto;
-  max-width: 1200px; /* keeps the row from stretching too wide */
-/*}*/
+.bn-card {
+  /* Add shadows to create the "card" effect */
 
+  padding: 5%;
+}
+
+.b-border:hover {
+  box-shadow: 0 16px 32px 0 rgba(255, 0, 0, 0.2);
+}
+
+.bn-container {
+    padding: 2px 16px;
+}
 
 .card {
 --bs-card-bg: #000614 !important;
