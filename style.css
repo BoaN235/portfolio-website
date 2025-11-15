@@ -93,7 +93,16 @@ iframe {
 .b-text {
     color: #DEE0E3;
     text-align: center;
-    font-size: 110%;
+    font-size: 1rem;
+}
+@media (max-width: 576px) {
+  .b-text {
+    font-size: 1.8rem;
+  }
+  p {
+    width: 90%; /* let text breathe */
+    font-size: 0.9rem;
+  }
 }
 
 .b-border {
@@ -133,8 +142,17 @@ p {
 
 
 .title {
-    text-align: center;
-    font-size: 250%;
+  text-align: center;
+  font-size: 2.5rem;
+}
+@media (max-width: 576px) {
+  .title {
+    font-size: 1.8rem;
+  }
+  p {
+    width: 90%; /* let text breathe */
+    font-size: 0.9rem;
+  }
 }
 
 .title::after {
