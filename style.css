@@ -134,7 +134,7 @@ iframe {
 }
 
 p {
-    color: #B3B8BD;
+    color: #DEE0E3;
     margin: 0 auto;
     /*padding-left: 5%; /* Adds 15px padding to all sides of all <p> elements */
     width: 60%;
@@ -143,6 +143,7 @@ p {
 
 .title {
   text-align: center;
+  color: #e5e9ee;
   font-size: 2.5rem;
 }
 @media (max-width: 576px) {
